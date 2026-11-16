@@ -1,0 +1,625 @@
+settings:
+  color_name: yellow
+  sticky_header: true
+  dark_header: false
+  transparent_header: false
+  dark_footer: true
+  page_size: 3
+  filter_has_numbers: true
+  preheader:
+    active: true
+    is_light: true
+    text: open Mon-Fri from 9-5
+contact:
+  phone: +31 618 51 89 28
+  email: joost@vdschee.nl
+header:
+  logo_image: ''
+  logo_subtitle: The Ultimate Hugo Theme (v2)
+  mobile_view_width: 1100
+  cta:
+    active: true
+    title: Get started
+    link: get-started.html
+  menu:
+  - title: Headers
+    link: headers.html
+    items:
+    - title: Title
+      link: header-with-title.html
+    - title: Content block
+      link: header-with-content.html
+    - title: Dark preheader
+      link: header-dark.html
+    - title: Dark nav
+      link: header-darker.html
+    - title: Transparent nav
+      link: header-transparent.html
+  - title: Pages
+    link: about.html
+    items:
+    - title: About
+      link: about.html
+    - title: Basic page 1
+      link: basic.html
+    - title: Basic page 2
+      link: basic2.html
+    - title: Images
+      link: images.html
+    - title: Our team
+      link: team.html
+    - title: Services
+      link: our-services.html
+    - title: Blog
+      link: blog.html
+    - title: Contact us
+      link: contact.html
+    - title: F.A.Q.
+      link: faq.html
+    - title: 404 Page
+      link: 404.html
+  - title: Elements
+    link: elements.html
+  - title: Docs
+    link: docs.html
+  - title: Examples
+    link: demo-paragliding.html
+    items:
+    - title: Paragliding
+      link: demo-paragliding.html
+    - title: Hiking
+      link: demo-hiking.html
+    - title: Poulterer
+      link: demo-poulterer.html
+    - title: POS software
+      link: demo-pos.html
+footer:
+  menu:
+  - title: About
+    link: about.html
+  - title: Elements
+    link: elements.html
+  - title: Privacy policy
+    link: privacy-policy.html
+  socials:
+  - title: Facebook
+    link: https://facebook.com
+    logo_image: img/facebook.svg
+  - title: Twitter
+    link: https://twitter.com
+    logo_image: img/twitter.svg
+  - title: Mastodon
+    link: https://joinmastodon.org
+    logo_image: img/mastodon.svg
+  - title: Instagram
+    link: https://instagram.com
+    logo_image: img/instagram.svg
+  text: This theme is open source. More info on [Github](https://github.com/jhvanderschee/hugobricks)!
+docs:
+- title: Documentation
+  link: docs.html
+  items:
+  - title: Getting started
+    link: docs-getting-started.html
+  - title: Bricks
+    link: docs-bricks.html
+    items:
+    - title: About
+      link: docs-bricks-about.html
+    - title: Blocks
+      link: docs-bricks-blocks.html
+    - title: Contact
+      link: docs-bricks-contact.html
+    - title: Call to action
+      link: docs-bricks-cta.html
+    - title: 404 (not found)
+      link: docs-bricks-error404.html
+    - title: Features
+      link: docs-bricks-features.html
+    - title: Form
+      link: docs-bricks-form.html
+    - title: Header
+      link: docs-bricks-header.html
+    - title: Image
+      link: docs-bricks-image.html
+    - title: Intro
+      link: docs-bricks-intro.html
+    - title: Map
+      link: docs-bricks-map.html
+    - title: Posts
+      link: docs-bricks-posts.html
+    - title: Prices
+      link: docs-bricks-prices.html
+    - title: Quote
+      link: docs-bricks-quote.html
+    - title: Reviews
+      link: docs-bricks-reviews.html
+    - title: Small
+      link: docs-bricks-small.html
+    - title: Team
+      link: docs-bricks-team.html
+    - title: Webshop
+      link: docs-bricks-webshop.html
+    - title: Wide
+      link: docs-bricks-wide.html
+  - title: Shortcodes
+    link: docs-shortcodes.html
+    items:
+    - title: Blog
+      link: docs-shortcodes-blog.html
+    - title: Breadcrumbs
+      link: docs-shortcodes-breadcrumbs.html
+    - title: Button
+      link: docs-shortcodes-button.html
+    - title: Cart
+      link: docs-shortcodes-cart.html
+    - title: Checkout
+      link: docs-shortcodes-checkout.html
+    - title: Checkout form
+      link: docs-shortcodes-checkoutform.html
+    - title: Contact form
+      link: docs-shortcodes-contact-form.html
+    - title: Contact buttons
+      link: docs-shortcodes-contactbuttons.html
+    - title: CTA form
+      link: docs-shortcodes-cta-form.html
+    - title: F.A.Q.
+      link: docs-shortcodes-faq.html
+    - title: Features
+      link: docs-shortcodes-features.html
+    - title: Gallery
+      link: docs-shortcodes-gallery.html
+    - title: Map
+      link: docs-shortcodes-map.html
+    - title: Newsletter form
+      link: docs-shortcodes-newsletterform.html
+    - title: Opening hours
+      link: docs-shortcodes-openinghours.html
+    - title: Pricing
+      link: docs-shortcodes-pricing.html
+    - title: Products
+      link: docs-shortcodes-products.html
+    - title: Reviews
+      link: docs-shortcodes-reviews.html
+    - title: Search
+      link: docs-shortcodes-search.html
+    - title: Services
+      link: docs-shortcodes-services.html
+    - title: Social buttons
+      link: docs-shortcodes-socialbuttons.html
+    - title: Subpages
+      link: docs-shortcodes-subpages.html
+    - title: Tabs
+      link: docs-shortcodes-tabs.html
+    - title: Team
+      link: docs-shortcodes-team.html
+    - title: Usecue payment
+      link: docs-shortcodes-usecue-payment.html
+    - title: Video
+      link: docs-shortcodes-video.html
+    - title: Vimeo
+      link: docs-shortcodes-vimeo.html
+    - title: Youtube
+      link: docs-shortcodes-youtube.html
+  - title: Settings
+    link: docs-settings.html
+    items:
+    - title: Global settings
+      link: docs-settings-global.html
+    - title: General
+      link: docs-settings-general.html
+    - title: Header
+      link: docs-settings-header.html
+    - title: Footer
+      link: docs-settings-footer.html
+  - title: Customizations
+    link: docs-customizations.html
+    items:
+    - title: Colors
+      link: docs-customizations-colors.html
+    - title: Fonts
+      link: docs-customizations-fonts.html
+    - title: CSS overrides
+      link: docs-customizations-css.html
+    - title: Multiple languages
+      link: docs-customizations-multiple-languages.html
+features:
+- icon: img/icons/material-symbols/200/rounded/auto_awesome_mosaic.svg
+  title: Covers all components
+  description: 'We aim to provide the following bricks: intro, title, image, cta, contact, team, testimonials, about, pricing,
+    products, product, usps, stats, gallery, quote, faqs, brands, video, blogs, post, related.'
+- icon: img/icons/material-symbols/200/rounded/performance_max.svg
+  title: 99+ Google Lighthouse score
+  description: Lightning fast website. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi
+    vel nisi ut alias excepturi ipsum.
+- icon: img/icons/material-symbols/200/rounded/design_services.svg
+  title: Themeable through CSS variables
+  description: Easily themeable. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi
+    vel nisi ut alias excepturi ipsum.
+- icon: img/icons/material-symbols/200/rounded/devices.svg
+  title: Fully responsive on all devices
+  description: Works on every screen. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi
+    vel nisi ut alias excepturi ipsum.
+- icon: img/icons/material-symbols/200/rounded/timer.svg
+  title: Super fast builds and deploys
+  description: Extremely fast. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel
+    nisi ut alias excepturi ipsum.
+- icon: img/icons/material-symbols/200/rounded/auto_fix.svg
+  title: 10+ pre-built pages
+  description: Start with the end result. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt
+    commodi vel nisi ut alias excepturi ipsum.
+reviews:
+- name: Gitio Hamano
+  function: Source Code version controller
+  image: uploads/photos/avatars/1.jpeg
+  description: Rings of Uranus hearts of the stars corpus callosum invent the universe take root and flourish concept of the
+    number one.
+  stars: 5
+- name: Rasmus Phorfp
+  function: All Stacks developer
+  image: uploads/photos/avatars/2.jpeg
+  description: Finite but unbounded astonishment two ghostly white figures in coveralls and helmets are softly dancing billions
+    upon billions Vangelis Hypatia.
+  stars: 5
+- name: Madogg Kabul
+  function: Keyboard Guru
+  image: uploads/photos/avatars/3.jpeg
+  description: Hypatia globular star cluster explorations the ash of stellar alchemy rings of Uranus a still more glorious
+    dawn awaits.
+  stars: 5
+- name: Kenny Thompson
+  function: Nix architect
+  image: uploads/photos/avatars/4.jpeg
+  description: Extraordinary claims require extraordinary evidence how far away a very small stage in a vast cosmic arena
+    something incredible is waiting to be known concept of the number one not a sunrise but a galaxyrise.
+  stars: 5
+- name: Linus O'Callaghan
+  function: Systems Administrator
+  image: uploads/photos/avatars/5.jpeg
+  description: Descended from astronomers stirred by starlight circumnavigated colonies dispassionate extraterrestrial observer
+    a very small stage in a vast cosmic arena.
+  stars: 5
+- name: Ada Lovelace
+  function: Alma (cyber)Mater
+  image: uploads/photos/avatars/6.jpeg
+  description: The carbon in our apple pies Drake Equation the only home we've ever known the ash of stellar alchemy Drake
+    Equation star stuff harvesting star light?
+  stars: 4
+pricing:
+  currency: $
+  period: /month
+  plans:
+  - badge: budget
+    title: Open-source
+    description: Full-featured theme/page builder to create a super fast & amazing website.
+    price: 0
+    features:
+    - Hugobricks theme/code
+    - All available bricks
+    - Regular updates
+    - Bug fixes & security patches
+    cta:
+      title: Get started
+      link: get-started.html
+      style: ghost
+  - badge: most popular
+    title: Hosted
+    description: Everything in one toolkit — we host your website on our top-notch infrastructure.
+    price: 25
+    featured: true
+    features:
+    - Hugobricks theme/code
+    - All available bricks
+    - Regular updates
+    - Bug fixes & security patches
+    - Form handling + notifications
+    - CMS system for editors
+    cta:
+      title: Yes, pick me!
+      link: get-started.html
+  - badge: everything
+    title: Enterprise
+    description: Get exceptional value and cost savings with our complete product suite.
+    price: 75
+    features:
+    - 'All other features plus:'
+    - High priority support
+    - Theme adjustments
+    - Custom bricks (on request)
+    cta:
+      title: Contact us
+      link: get-started.html
+      style: ghost
+faqs:
+- title: Hugobricks theme
+  faqs:
+  - question: Why choose Hugobricks for my next project?
+    answer: Hugo allows you to build a fast, efficient, and scalable website. It offers you a clean separation of concerns,
+      content vs layout and styles. The Hugobricks brings a pagebuilder to that workflow.
+  - question: I need to develop a performant website. Does Hugobricks offer a good performance?
+    answer: Hugobricks is renowned for its exceptional speed and performance. It is built using the Go programming language,
+      which enables it to generate websites at an astonishing pace. Whether you have a small blog or a large enterprise site,
+      Hugobricks’s speed ensures that your pages load quickly, providing an excellent user experience. This advantage becomes
+      especially significant when dealing with large websites or making frequent updates.
+- title: Scalability, ease of use and flexibility?
+  faqs:
+  - question: What about scalability and portability
+    answer: Whether you’re building a personal blog or a large-scale enterprise website, Hugobricks scales effortlessly. Its
+      ability to handle thousands of pages with consistent speed and efficiency makes it an ideal choice for projects of any
+      size. Moreover, Hugobricks generates static websites that can be hosted on any web server or content delivery network
+      (CDN) without any specific server requirements, ensuring portability and easy deployment.
+  - question: How easy is it to set up?
+    answer: Hugobricks offers a straightforward and hassle-free setup process. It comes with pre-built binaries for various
+      operating systems, making it accessible to developers across different platforms. Additionally, Hugobricks has a user-friendly
+      command-line interface (CLI) that allows you to create and manage your site effortlessly. Its simplicity makes it a
+      great choice for both experienced developers and beginners alike.
+  - question: How flexible is the offered architecture?
+    answer: Hugobricks provides a flexible architecture that empowers developers to create websites tailored to their specific
+      needs. With its powerful templating system, you can easily customize the look and feel of your site. Hugobricks supports
+      a wide range of themes, allowing you to choose from a vast collection or create your own. Furthermore, its extensive
+      plugin ecosystem enables you to extend its functionality and add features seamlessly.
+- title: Markdown content and SEO
+  faqs:
+  - question: What about Markdown and content management?
+    answer: Content creation and management are made convenient with Hugobricks. It supports Markdown, a lightweight markup
+      language that simplifies the process of writing content-rich web pages. Markdown’s simplicity and readability make it
+      a favorite among writers and developers alike. Hugobricks’s content organization system allows you to easily structure
+      your content, making it effortless to manage and update your website’s information.
+  - question: What about SEO-friendliness?
+    answer: Hugobricks is designed with search engine optimization (SEO) in mind. It generates clean HTML markup, adhering
+      to best practices for search engine discoverability. This helps your site rank higher in search engine results, increasing
+      its visibility to potential visitors.
+  - question: What about hugobricks security?
+    answer: Additionally, Hugobricks’s static nature eliminates the need for databases or complex server configurations, making
+      it inherently more secure than dynamic content management systems.
+people:
+- name: Gitio Hamano
+  function: Source Code version controller
+  image: uploads/photos/avatars/2.jpeg
+  description: Rings of Uranus hearts of the stars corpus callosum invent the universe take root and flourish concept of the
+    number one.
+  email: joost@vdschee.nl
+  phone: null
+  linkedin: https://www.linkedin.com/in/joost-van-der-schee-4b26682/
+  website: null
+- name: Rasmus Phorfp
+  function: All Stacks developer
+  image: uploads/photos/avatars/1.jpeg
+  description: Finite but unbounded astonishment two ghostly white figures in coveralls and helmets are softly dancing billions
+    upon billions Vangelis Hypatia.
+  email: joost@vdschee.nl
+  phone: null
+  linkedin: https://www.linkedin.com/in/joost-van-der-schee-4b26682/
+  website: null
+- name: Madogg Kabul
+  function: Keyboard Guru
+  image: uploads/photos/avatars/3.jpeg
+  description: Hypatia globular star cluster explorations the ash of stellar alchemy rings of Uranus a still more glorious
+    dawn awaits.
+  email: joost@vdschee.nl
+  phone: null
+  linkedin: https://www.linkedin.com/in/joost-van-der-schee-4b26682/
+  website: null
+- name: Kenny Thompson
+  function: Nix architect
+  image: uploads/photos/avatars/4.jpeg
+  description: Extraordinary claims require extraordinary evidence how far away a very small stage in a vast cosmic arena
+    something incredible is waiting to be known.
+  email: joost@vdschee.nl
+  phone: null
+  linkedin: https://www.linkedin.com/in/joost-van-der-schee-4b26682/
+  website: null
+- name: Linus O'Callaghan
+  function: Systems Administrator
+  image: uploads/photos/avatars/5.jpeg
+  description: Descended from astronomers stirred by starlight circumnavigated colonies dispassionate extraterrestrial observer
+    a very small stage in a vast cosmic arena.
+  email: joost@vdschee.nl
+  phone: null
+  linkedin: https://www.linkedin.com/in/joost-van-der-schee-4b26682/
+  website: null
+- name: Ada Lovelace
+  function: Alma (cyber)Mater
+  image: uploads/photos/avatars/6.jpeg
+  description: The carbon in our apple pies Drake Equation the only home we've ever known the ash of stellar alchemy Drake
+    Equation star stuff extremely harvesting star light?
+  email: joost@vdschee.nl
+  phone: null
+  linkedin: null
+  website: https://www.linkedin.com/in/joost-van-der-schee-4b26682/
+openinghours:
+  mon:
+    start: 9.00 am
+    end: 5.00 pm
+  tue:
+    start: 9.00 am
+    end: 5.00 pm
+  wed:
+    start: 9.00 am
+    end: 5.00 pm
+  thu:
+    start: 9.00 am
+    end: 5.00 pm
+  fri:
+    start: 9.00 am
+    end: 5.00 pm
+  sat:
+    start: null
+    end: null
+  sun:
+    start: null
+    end: null
+forms:
+  ctaform:
+    action: /form.php
+    placeholders: false
+    fields:
+    - name: title
+      input_type: html
+      label: <h3>Enter your details below</h3>
+      required: true
+    - name: name
+      input_type: text
+      label: Name
+      required: true
+    - name: email
+      input_type: email
+      label: Email address
+      required: true
+    - name: message
+      input_type: textarea
+      label: Message
+      required: false
+    - name: terms
+      input_type: checkbox
+      label: I accept the terms and conditions
+      required: true
+    - name: submit
+      input_type: submit
+      label: Submit form
+      required: true
+  contactform:
+    action: /form.php
+    placeholders: false
+    fields:
+    - name: title
+      input_type: html
+      label: <h3>Tell us a bit about yourself</h3>
+      required: true
+    - name: name
+      input_type: text
+      label: Name
+      required: true
+    - name: email
+      input_type: email
+      label: Email address
+      required: true
+    - name: message
+      input_type: textarea
+      label: Message
+      required: false
+    - name: terms
+      input_type: checkbox
+      label: I accept the terms and conditions
+      required: true
+    - name: submit
+      input_type: submit
+      label: Submit form
+      required: true
+  newsletterform:
+    action: /form.php
+    placeholders: false
+    fields:
+    - name: name
+      input_type: text
+      label: Name
+      required: true
+    - name: email
+      input_type: email
+      label: Email address
+      required: true
+    - name: submit
+      input_type: submit
+      label: Submit form
+      required: true
+sections:
+- title: wide
+  has: h2#buttons
+  not_has: null
+  is: null
+  not_is: null
+- title: wide
+  has: section.faqgroup
+  not_has: null
+  is: null
+  not_is: null
+- title: error404
+  has: img.404
+  not_has: null
+  is: null
+  not_is: null
+- title: contact
+  has: form#contactform
+  not_has: null
+  is: null
+  not_is: null
+- title: about
+  has: img.about
+  not_has: null
+  is: null
+  not_is: null
+- title: cta
+  has: a.button:last-child
+  not_has: img.map
+  is: :last-child
+  not_is: null
+- title: features
+  has: ul.features
+  not_has: null
+  is: null
+  not_is: null
+- title: team
+  has: ul.team
+  not_has: null
+  is: null
+  not_is: null
+- title: posts
+  has: ul.posts
+  not_has: null
+  is: null
+  not_is: null
+- title: reviews
+  has: ul.reviews
+  not_has: null
+  is: null
+  not_is: null
+- title: quote
+  has: blockquote:first-child
+  not_has: null
+  is: null
+  not_is: null
+- title: map
+  has: img.map
+  not_has: null
+  is: null
+  not_is: null
+- title: wide
+  has: h1
+  not_has: img.background
+  is: :only-child
+  not_is: null
+- title: intro
+  has: h1
+  not_has: img.background
+  is: null
+  not_is: null
+- title: header
+  has: h1, img.background
+  not_has: null
+  is: null
+  not_is: null
+- title: image
+  has: img.float
+  not_has: null
+  is: null
+  not_is: null
+- title: prices
+  has: ul.prices
+  not_has: null
+  is: null
+  not_is: null
+- title: blocks
+  has: ul, strong
+  not_has: null
+  is: null
+  not_is: null
+- title: form
+  has: form#ctaform
+  not_has: null
+  is: null
+  not_is: null
+- title: small
+  has: null
+  not_has: :nth-child(4)
+  is: null
+  not_is: null

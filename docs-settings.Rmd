@@ -1,0 +1,12 @@
+---
+title: Settings
+layout: docs
+---
+
+
+Customize the way your website looks by editing the items below.
+
+- [Global settings](docs-settings-global.html)
+- [General](docs-settings-general.html)
+- [Header](docs-settings-header.html)
+- [Footer](docs-settings-footer.html)

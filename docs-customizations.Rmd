@@ -1,0 +1,12 @@
+---
+title: Customizations
+layout: docs
+---
+
+
+Hugobricks is not just an easy to use theme, but also easy to customize.
+
+- [Colors](docs-customizations-colors.html)
+- [Fonts](docs-customizations-fonts.html)
+- [Multiple languages](docs-customizations-multiple-languages.html)
+- [CSS overrides](docs-customizations-css.html)
